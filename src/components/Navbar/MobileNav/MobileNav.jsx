@@ -32,8 +32,8 @@ const MobileNav = ({ isOpen, toggalMenu }) => {
   };
   const downloadResume = () => {
     const link = document.createElement("a");
-    link.href = process.env.PUBLIC_URL + "/jibran.pdf"; // Path to the file in the public folder
-    link.download = "Jibran Mehtab.pdf"; // Name for the downloaded file
+    link.href = process.env.PUBLIC_URL + "/Faraz_Tariq_SQA.pdf"; // Path to the file in the public folder
+    link.download = "Faraz_Tariq_SQA.pdf"; // Name for the downloaded file
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -47,7 +47,7 @@ const MobileNav = ({ isOpen, toggalMenu }) => {
         <div className="mobile-menu-content">
           <img
             className="logo"
-            src="./assets/img/jibranMehtab.png"
+            src="./assets/img/faraztariqsignature.png"
             alt="logo"
           />
 
