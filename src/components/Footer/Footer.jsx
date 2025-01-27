@@ -4,7 +4,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <div className="footer">
-      Copyright © 2024 Faraz Tariq. All rights reserved.
+      Copyright © 2025 Faraz Tariq. All rights reserved.
     </div>
   );
 };
