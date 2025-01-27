@@ -84,7 +84,7 @@ const Navbar = () => {
               </a>
             </li>
             <button className="contact-btn" onClick={downloadResume}>
-              Resume
+            My CV
             </button>
           </ul>
           <button className="menu-btn" onClick={toggalMenu}>
